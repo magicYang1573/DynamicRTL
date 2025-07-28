@@ -10,10 +10,9 @@
 </div>
 
 ## 1. Introduction
-This is the source code of our paper submitted to AAAI'2026: *DynamicRTL: RTL Representation Learning for Dynamic Circuit Behavior*. 
+This is the source code of the paper submitted to AAAI'2026: *DynamicRTL: RTL Representation Learning for Dynamic Circuit Behavior*. 
 
-The source code include the training and evaluation of the DR-GNN model and the models for comparison and ablation experiments. To avoid an over large size of the repository, part of the dataset (2000 in 6300) is processed and provided in .npz format.
-The overall circuit files, CDFGs, and simulation data will be open-sourced after paper accepted. 
+The repository contains the source code for training and evaluation the DR-GNN model, and the baseline models for comparison and ablation experiments. To avoid an oversized repo, a subset of the dataset (2000 in 6300) is preprocessed and provided in .npz format. The overall circuit files, CDFGs, and simulation data will be open-source after paper accepted. 
 <!-- Moreover, we will also open-source the flow of processing CDFGs and simulation results, which is removed from our [CDFG_utils](src/utils/CDFG_utils.py "CDFG_urils"), and the whole project of constructing CDFGs from Verilog design files to contribute to the community of Programming Language especially RTL representation learning, hardware design and Electronic Design Automation communities. -->
 ![Overview](_picture/overview.png "Overview")
 
