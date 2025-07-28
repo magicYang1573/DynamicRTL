@@ -13,8 +13,8 @@ downstream_gnn_layer=3
 python src/train_downstream.py \
     --data_dir dataset_npz \
     --batch_size 64 \
-    --graph_npz_name graphs.npz \
-    --label_npz_name labels.npz \
+    --graph_npz_name dataset_npz/graphs-2000.npz \
+    --label_npz_name dataset_npz/labels-2000.npz \
     --gpus $gpus \
     --pretrain_weight $weight \
     --train_seq_len $train_seq_len \

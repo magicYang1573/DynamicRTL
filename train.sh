@@ -8,8 +8,8 @@ exp_id=${model}_model_${eval_seq_len}
 python src/train.py \
     --data_dir dataset_npz \
     --batch_size 64 \
-    --graph_npz_name graphs.npz \
-    --label_npz_name labels.npz \
+    --graph_npz_name dataset_npz/graphs-2000.npz \
+    --label_npz_name dataset_npz/labels-2000.npz \
     --gpus $gpus \
     --model $model \
     --train_seq_len $train_seq_len \
