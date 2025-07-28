@@ -1,0 +1,6 @@
+gputil==1.4.0
+numpy==2.1.1
+progress==1.6
+pyparsing==3.1.4
+python-dateutil==2.9.0.post0
+torch==2.3.0
