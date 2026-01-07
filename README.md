@@ -13,12 +13,30 @@ The repository contains the source code for the training and evaluation of the D
 ![Overview](_picture/overview.png "Overview")
 
 ## 2. Dataset
-We provide pre-processed circuit dynamics in NumPy `.npz` format (stored under `dataset_npz`). The parser builds torch-geometric graphs from two files:
+- **What we provide**: a pre-processed circuit dynamics dataset in NumPy `.npz` format under `dataset_npz/`.
+- **Subsets in repo**: `graphs-200.npz`, `labels-200.npz`, `graphs-2000.npz`, `labels-2000.npz` (for quick smoke tests).
+- **Full set download**: Google Drive folder: https://drive.google.com/drive/folders/18-jEWtzbFD719yQPGcUyb8fB72HiEias?usp=drive_link
 
-- `graphs.npz`: a dict `designs` where each key is a design name and each value holds node features `x`, edges `edge_index`, `edge_type`, simulation traces `sim_res`, and physical attributes (`power`, `slack`, `area`). Each simulation trace is treated as an independent sample.
-- `labels.npz`: a dict `labels` aligned with `designs`, containing the supervision target `y` for pre-training tasks.
+### File structure
+- `graphs*.npz`: dictionary `designs` keyed by design name. Each entry contains:
+  - `x`: node features (type one-hot, width, etc.)
+  - `edge_index`, `edge_type`: graph topology
+  - `sim_res`: simulation traces; each trace becomes an independent sample
+  - `has_sim_res`: trace availability flag
+  - `power`, `slack`, `area`: physical attributes per trace
+- `labels*.npz`: dictionary `labels` aligned with `designs`, carrying supervision target `y` for pre-training.
 
-The default split keeps designs disjoint between train/val (90/10). To point the runner to a custom dataset, set `--data_dir`, `--graph_npz_name`, and `--label_npz_name` when invoking the training scripts.
+### Splits and loading
+- Default split is design-disjoint train/val (90/10) in `NpzParser` (`--trainval_split` adjustable in code).
+- To use a specific split or custom files, pass `--data_dir`, `--graph_npz_name`, and `--label_npz_name` to the training scripts.
+
+### Quick start with provided subsets
+```bash
+python src/train.py \
+  --data_dir dataset_npz \
+  --graph_npz_name graphs-200.npz \
+  --label_npz_name labels-200.npz
+```
 
 ## 3. Requirements and Usage
 ```bash
