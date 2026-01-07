@@ -30,13 +30,6 @@ The repository contains the source code for the training and evaluation of the D
 - Default split is design-disjoint train/val (90/10) in `NpzParser` (`--trainval_split` adjustable in code).
 - To use a specific split or custom files, pass `--data_dir`, `--graph_npz_name`, and `--label_npz_name` to the training scripts.
 
-### Quick start with provided subsets
-```bash
-python src/train.py \
-  --data_dir dataset_npz \
-  --graph_npz_name graphs-200.npz \
-  --label_npz_name labels-200.npz
-```
 
 ## 3. Requirements and Usage
 ```bash
