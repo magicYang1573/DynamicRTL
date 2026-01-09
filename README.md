@@ -59,7 +59,7 @@ bash train_downstream.sh
 ## 4. Data pre-processing
 You can use the [RTL2CDFG](RTL2CDFG) tool to convert RTL design files into CDFGs.
 And then you can use [CDFG2RTL](CDFG2RTL) tool to guarantee the correctness of the conversion.
-
+![CDFG-RTL](CDFG2RTL/_pic/project_structure.png "CDFG-RTL")
 ## 5. Citation
 ```
 @inproceedings{ma2026dynamicrtl,
