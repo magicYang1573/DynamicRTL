@@ -1,0 +1,123 @@
+Module: vga_text
+Clock Signal: clk25mhz
+Input: background (width: 4)
+Input: char_data (width: 8)
+Input: clk25mhz (width: 1)
+Input: emphasized (width: 4)
+Input: font_data (width: 14)
+Input: hindex (width: 10)
+Input: standard (width: 4)
+Input: vindex (width: 10)
+Output: char_address (width: 12)
+Output: color (width: 8)
+Output: font_address (width: 10)
+Sensitive: clk25mhz
+Reg: font_address
+Reg: char_col
+Reg: char_row
+Reg: foreground
+Reg: bright
+Reg: dark
+Reg: char_address
+Wire: _03_
+Wire: _10_
+Wire: _11_
+Wire: _24_
+Wire: _39_
+Wire: _08_
+Wire: _31_
+Wire: _28_
+Wire: pixel_color
+Wire: _37_
+Wire: _32_
+Wire: _21_
+Wire: _16_
+Wire: _13_
+Wire: _22_
+Wire: _01_
+Wire: _05_
+Wire: _34_
+Wire: _27_
+Wire: _09_
+Wire: _07_
+Wire: _26_
+Wire: _35_
+Wire: _18_
+Wire: _23_
+Wire: _17_
+Wire: _25_
+Wire: _14_
+Wire: _33_
+Wire: _15_
+Wire: _00_
+Wire: _36_
+Wire: _88_
+Wire: _30_
+Wire: _20_
+Wire: _38_
+Wire: _06_
+Wire: _29_
+Wire: _02_
+Wire: _12_
+Wire: _19_
+Wire: _04_
+Operator: Plus
+Operator: Plus
+Operator: Plus
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Pointer
+Operator: Eq
+Operator: Pointer
+Operator: Eq
+Operator: Partselect
+Operator: GreaterEq
+Operator: GreaterThan
+Operator: Land
+Operator: Land
+Operator: Land
+Operator: LessThan
+Operator: LessThan
+Operator: LessThan
+Operator: LessThan
+Operator: Concat
+Operator: Partselect
+Operator: Cond
+Operator: Partselect
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Partselect
+Operator: Cond
+Operator: Partselect
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Partselect
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Partselect
+Operator: Cond
+Operator: Cond
+Operator: Partselect
+Operator: Cond
+Operator: Cond
+Operator: Partselect
+Operator: Plus
+Operator: Minus
+Operator: Cond
+Operator: Cond
+Operator: Concat
+Operator: Pointer
+Operator: Pointer
+Operator: Pointer
+Operator: Pointer
+Operator: Pointer
+Operator: Pointer

@@ -1,0 +1,19 @@
+Module: blinker
+Clock Signal: clk
+Input: clk (width: 1)
+Input: rst (width: 1)
+Output: blink (width: 1)
+Sensitive: clk
+Reg: dir
+Reg: counter_q
+Wire: _03_
+Wire: _00_
+Wire: _01_
+Wire: _02_
+Wire: counter_d
+Operator: Plus
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Minus
+Operator: Pointer

@@ -1,0 +1,976 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "a"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "b"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "c"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "d"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "result"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        }
+                      ],
+                      "name": "TpVarTplist"
+                    }
+                  ],
+                  "name": "TpSigDeclBody"
+                }
+              ],
+              "name": "paras"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "31"
+                            }
+                          ],
+                          "name": "Int"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "0"
+                            }
+                          ],
+                          "name": "Int"
+                        }
+                      ],
+                      "name": "RngC"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "a"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        }
+                      ],
+                      "name": "TpVarTplist"
+                    }
+                  ],
+                  "name": "TpSigDeclBody"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "31"
+                            }
+                          ],
+                          "name": "Int"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "0"
+                            }
+                          ],
+                          "name": "Int"
+                        }
+                      ],
+                      "name": "RngC"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "b"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        }
+                      ],
+                      "name": "TpVarTplist"
+                    }
+                  ],
+                  "name": "TpSigDeclBody"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "31"
+                            }
+                          ],
+                          "name": "Int"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "0"
+                            }
+                          ],
+                          "name": "Int"
+                        }
+                      ],
+                      "name": "RngC"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "c"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        }
+                      ],
+                      "name": "TpVarTplist"
+                    }
+                  ],
+                  "name": "TpSigDeclBody"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "31"
+                            }
+                          ],
+                          "name": "Int"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "0"
+                            }
+                          ],
+                          "name": "Int"
+                        }
+                      ],
+                      "name": "RngC"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "d"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        }
+                      ],
+                      "name": "TpVarTplist"
+                    }
+                  ],
+                  "name": "TpSigDeclBody"
+                }
+              ],
+              "name": "ilists"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "31"
+                            }
+                          ],
+                          "name": "Int"
+                        },
+                        {
+                          "children": [
+                            {
+                              "name": "0"
+                            }
+                          ],
+                          "name": "Int"
+                        }
+                      ],
+                      "name": "RngC"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "name": "result"
+                            }
+                          ],
+                          "name": "TpVarTp"
+                        }
+                      ],
+                      "name": "TpVarTplist"
+                    }
+                  ],
+                  "name": "TpSigDeclBody"
+                }
+              ],
+              "name": "olists"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "a"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "b"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "c"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "d"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "result"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "t1"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "t2"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "t3"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "31"
+                                }
+                              ],
+                              "name": "Int"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "name": "0"
+                                }
+                              ],
+                              "name": "Int"
+                            }
+                          ],
+                          "name": "RngC"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "name": "t4"
+                                }
+                              ],
+                              "name": "TpVarTp"
+                            }
+                          ],
+                          "name": "TpVarTplist"
+                        }
+                      ],
+                      "name": "TpSigDeclBody"
+                    }
+                  ],
+                  "name": "Wire"
+                }
+              ],
+              "name": "sigset"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "name": "t1"
+                                    }
+                                  ],
+                                  "name": "Var"
+                                }
+                              ],
+                              "name": "Lname"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "a"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Left"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "b"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Right"
+                                }
+                              ],
+                              "name": "Add"
+                            }
+                          ],
+                          "name": "TpEqAssign"
+                        }
+                      ],
+                      "name": "TpEqAssigns"
+                    }
+                  ],
+                  "name": "TpAssign"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "name": "t2"
+                                    }
+                                  ],
+                                  "name": "Var"
+                                }
+                              ],
+                              "name": "Lname"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "a"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Left"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "b"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Right"
+                                }
+                              ],
+                              "name": "Add"
+                            }
+                          ],
+                          "name": "TpEqAssign"
+                        }
+                      ],
+                      "name": "TpEqAssigns"
+                    }
+                  ],
+                  "name": "TpAssign"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "name": "t3"
+                                    }
+                                  ],
+                                  "name": "Var"
+                                }
+                              ],
+                              "name": "Lname"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "t1"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Left"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "c"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Right"
+                                }
+                              ],
+                              "name": "Add"
+                            }
+                          ],
+                          "name": "TpEqAssign"
+                        }
+                      ],
+                      "name": "TpEqAssigns"
+                    }
+                  ],
+                  "name": "TpAssign"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "name": "t4"
+                                    }
+                                  ],
+                                  "name": "Var"
+                                }
+                              ],
+                              "name": "Lname"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "t2"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Left"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "d"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Right"
+                                }
+                              ],
+                              "name": "Add"
+                            }
+                          ],
+                          "name": "TpEqAssign"
+                        }
+                      ],
+                      "name": "TpEqAssigns"
+                    }
+                  ],
+                  "name": "TpAssign"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "name": "result"
+                                    }
+                                  ],
+                                  "name": "Var"
+                                }
+                              ],
+                              "name": "Lname"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "t3"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Left"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "name": "t4"
+                                        }
+                                      ],
+                                      "name": "Var"
+                                    }
+                                  ],
+                                  "name": "Right"
+                                }
+                              ],
+                              "name": "Add"
+                            }
+                          ],
+                          "name": "TpEqAssign"
+                        }
+                      ],
+                      "name": "TpEqAssigns"
+                    }
+                  ],
+                  "name": "TpAssign"
+                }
+              ],
+              "name": "body"
+            }
+          ],
+          "name": "TpTask dataflow_optimization"
+        }
+      ],
+      "name": "TpModule"
+    }
+  ],
+  "name": "TpProg"
+}

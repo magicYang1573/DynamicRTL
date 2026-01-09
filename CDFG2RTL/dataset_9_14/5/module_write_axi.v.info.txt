@@ -1,0 +1,15 @@
+Module: write_axi
+Clock Signal: clock_50
+Input: clock_50 (width: 1)
+Input: clock_recovery (width: 1)
+Input: data_rec (width: 14)
+Input: reset_n (width: 1)
+Output: data_stand (width: 14)
+Sensitive: clock_50
+Reg: data_stand
+Wire: _1_
+Wire: _2_
+Wire: _0_
+Operator: Ulnot
+Operator: Cond
+Operator: Cond

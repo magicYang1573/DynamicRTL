@@ -1,0 +1,19 @@
+digraph test {
+    "Input,-30,cur_pc" [style=filled, color=yellow];
+    "Input,1,rst" [style=filled, color=yellow];
+    "Output_Reg,-30,next_pc" [style=filled, color=green];
+    "Wire,32,_0_" [style=filled, color=orange];
+    "Wire,32,_1_" [style=filled, color=orange];
+    "Add,Null,Add_1" [style=filled, color=pink];
+    "Const,32,Constant_32'D4" [style=filled, color=grey];
+    "Cond,Null,Cond_1" [style=filled, color=pink];
+    "Const,32,Constant_32'D0" [style=filled, color=grey];
+    "Input,-30,cur_pc" -> "Add,Null,Add_1" [label="1"];
+    "Input,1,rst" -> "Cond,Null,Cond_1" [label="1"];
+    "Wire,32,_0_" -> "Output_Reg,-30,next_pc" [label="1"];
+    "Wire,32,_1_" -> "Cond,Null,Cond_1" [label="3"];
+    "Add,Null,Add_1" -> "Wire,32,_1_" [label="1"];
+    "Const,32,Constant_32'D4" -> "Add,Null,Add_1" [label="2"];
+    "Cond,Null,Cond_1" -> "Wire,32,_0_" [label="1"];
+    "Const,32,Constant_32'D0" -> "Cond,Null,Cond_1" [label="2"];
+}

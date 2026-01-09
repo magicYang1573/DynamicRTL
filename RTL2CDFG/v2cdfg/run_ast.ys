@@ -1,0 +1,12 @@
+# read  -verific
+read_verilog ./test.v
+
+# elaborate design hierarchy
+# hierarchy -check -top top
+
+#big case
+hierarchy -check
+proc
+flatten
+memory
+write_verilog ./test_ast.v
