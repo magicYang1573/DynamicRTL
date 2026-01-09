@@ -1,0 +1,4 @@
+register.v : Yosys failed
+combined_top_module.v : Yosys failed
+expanded_riscv_core.v : Parser failed
+register.v : Yosys failed

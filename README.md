@@ -56,7 +56,11 @@ bash train_downstream.sh
 - `src/npz_parser.py`: converts `.npz` pairs into torch-geometric `Data` objects with per-trace samples.
 - `src/utils/`: helpers for logging, metrics, and CDFG utilities.
 
-## 4. Citation
+## 4. Data pre-processing
+You can use the [RTL2CDFG](RTL2CDFG) tool to convert RTL design files into CDFGs.
+And then you can use [CDFG2RTL](CDFG2RTL) tool to guarantee the correctness of the conversion.
+
+## 5. Citation
 ```
 @inproceedings{ma2026dynamicrtl,
   title     = {{DynamicRTL}: {RTL} Representation Learning for Dynamic Circuit Behavior},

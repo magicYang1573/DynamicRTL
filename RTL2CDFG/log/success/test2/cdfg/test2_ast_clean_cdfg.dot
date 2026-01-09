@@ -1,0 +1,31 @@
+digraph test {
+    "Input,32,a" [style=filled, color=yellow];
+    "Input,32,b" [style=filled, color=yellow];
+    "Input,32,c" [style=filled, color=yellow];
+    "Output,32,result" [style=filled, color=green];
+    "Wire,32,t1" [style=filled, color=orange];
+    "Wire,32,t2" [style=filled, color=orange];
+    "Wire,32,t3" [style=filled, color=orange];
+    "Wire,32,t4" [style=filled, color=orange];
+    "Add,Null,Add_1" [style=filled, color=pink];
+    "Add,Null,Add_2" [style=filled, color=pink];
+    "Add,Null,Add_3" [style=filled, color=pink];
+    "Add,Null,Add_4" [style=filled, color=pink];
+    "Const,1,Constant_1'H1" [style=filled, color=grey];
+    "Add,Null,Add_5" [style=filled, color=pink];
+    "Input,32,a" -> "Add,Null,Add_1" [label="1"];
+    "Input,32,a" -> "Add,Null,Add_2" [label="1"];
+    "Input,32,b" -> "Add,Null,Add_1" [label="2"];
+    "Input,32,b" -> "Add,Null,Add_2" [label="2"];
+    "Input,32,c" -> "Add,Null,Add_3" [label="2"];
+    "Wire,32,t1" -> "Add,Null,Add_3" [label="1"];
+    "Wire,32,t2" -> "Add,Null,Add_4" [label="1"];
+    "Wire,32,t3" -> "Add,Null,Add_5" [label="1"];
+    "Wire,32,t4" -> "Add,Null,Add_5" [label="2"];
+    "Add,Null,Add_1" -> "Wire,32,t1" [label="1"];
+    "Add,Null,Add_2" -> "Wire,32,t2" [label="1"];
+    "Add,Null,Add_3" -> "Wire,32,t3" [label="1"];
+    "Add,Null,Add_4" -> "Wire,32,t4" [label="1"];
+    "Const,1,Constant_1'H1" -> "Add,Null,Add_4" [label="2"];
+    "Add,Null,Add_5" -> "Output,32,result" [label="1"];
+}

@@ -1,0 +1,41 @@
+Module: image_generator
+Clock Signal: clk
+Input: clk (width: 1)
+Input: reset (width: 1)
+Output: address (width: 16)
+Output: load (width: 1)
+Output: out (width: 16)
+Sensitive: clk
+Reg: counter
+Reg: wren
+Reg: buffer_addr
+Reg: data
+Wire: _08_
+Wire: _00_
+Wire: _06_
+Wire: _09_
+Wire: _10_
+Wire: _11_
+Wire: _03_
+Wire: _01_
+Wire: _07_
+Wire: _02_
+Wire: _05_
+Wire: _13_
+Wire: _04_
+Wire: _12_
+Operator: Plus
+Operator: Divide
+Operator: Eq
+Operator: Mod
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Partselect
+Operator: Cond
+Operator: Cond
+Operator: Uor

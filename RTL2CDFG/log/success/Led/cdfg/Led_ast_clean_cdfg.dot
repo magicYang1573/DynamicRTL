@@ -1,0 +1,26 @@
+digraph test {
+    "Input,1,rst" [style=filled, color=yellow];
+    "Output,8,led" [style=filled, color=green];
+    "Wire,8,_0_" [style=filled, color=orange];
+    "Cond,Null,Cond_1" [style=filled, color=pink];
+    "Const,8,Constant_8'H1" [style=filled, color=grey];
+    "Concat,Null,Concat_1" [style=filled, color=pink];
+    "PartSelect,Null,PartSelect_0" [style=filled, color=pink];
+    "Const,Null,Constant_6" [style=filled, color=grey];
+    "Const,Null,Constant_0" [style=filled, color=grey];
+    "PartSelect,Null,PartSelect_1" [style=filled, color=pink];
+    "Const,Null,Constant_7" [style=filled, color=grey];
+    "Input,1,rst" -> "Cond,Null,Cond_1" [label="1"];
+    "Output,8,led" -> "PartSelect,Null,PartSelect_0" [label="1"];
+    "Output,8,led" -> "PartSelect,Null,PartSelect_1" [label="1"];
+    "Wire,8,_0_" -> "Output,8,led" [label="1"];
+    "Cond,Null,Cond_1" -> "Wire,8,_0_" [label="1"];
+    "Const,8,Constant_8'H1" -> "Cond,Null,Cond_1" [label="2"];
+    "Concat,Null,Concat_1" -> "Cond,Null,Cond_1" [label="3"];
+    "PartSelect,Null,PartSelect_0" -> "Concat,Null,Concat_1" [label="1"];
+    "Const,Null,Constant_6" -> "PartSelect,Null,PartSelect_0" [label="2"];
+    "Const,Null,Constant_0" -> "PartSelect,Null,PartSelect_0" [label="3"];
+    "PartSelect,Null,PartSelect_1" -> "Concat,Null,Concat_1" [label="2"];
+    "Const,Null,Constant_7" -> "PartSelect,Null,PartSelect_1" [label="2"];
+    "Const,Null,Constant_7" -> "PartSelect,Null,PartSelect_1" [label="3"];
+}

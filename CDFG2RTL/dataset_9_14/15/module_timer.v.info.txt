@@ -1,0 +1,56 @@
+Module: timer
+Clock Signal: CLK_I
+Input: ADR_I (width: 30)
+Input: CLK_I (width: 1)
+Input: CYC_I (width: 1)
+Input: RST_I (width: 1)
+Input: STB_I (width: 1)
+Input: WE_I (width: 1)
+Output: RTY_O (width: 1)
+Output: interrupt_o (width: 1)
+Sensitive: CLK_I
+Reg: RTY_O
+Reg: counter
+Reg: interrupt_o
+Wire: _15_
+Wire: _05_
+Wire: _02_
+Wire: _18_
+Wire: _19_
+Wire: _11_
+Wire: _07_
+Wire: _04_
+Wire: _00_
+Wire: _03_
+Wire: _09_
+Wire: _06_
+Wire: _20_
+Wire: _10_
+Wire: _17_
+Wire: _16_
+Wire: _14_
+Wire: _12_
+Wire: _01_
+Wire: _13_
+Wire: _08_
+Operator: Plus
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Eq
+Operator: Land
+Operator: Land
+Operator: Land
+Operator: Land
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
+Operator: Cond
